@@ -67,6 +67,14 @@ body {
   color: #0a507a;
 }
 
+.header {
+  min-height: 100vh;
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
 .header__phone {
   display: flex;
   align-items: center;
