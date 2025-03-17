@@ -91,3 +91,89 @@ body {
   background-color: #2b2a29;
   border-radius: 30px;
 }
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__info {
+}
+
+.header__info-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 10px;
+  max-width: 490px;
+}
+
+.header__info-item {
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #0a507a;
+  border: 1px solid #0a507a;
+  border-radius: 30px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header__social {
+}
+.header__social-list {
+  display: flex;
+  gap: 20px;
+}
+.header__social-item {
+}
+.header__social-link {
+}
+.header__social-img {
+}
+.header__news {
+}
+.header__news-box {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.header__news-title {
+}
+.header__news-time {
+  margin-bottom: 10px;
+}
+.header__news-link {
+  align-self: flex-start;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+.header__news-img {
+}
+.header__buttons {
+  display: flex;
+  gap: 20px;
+}
+.header__buttons-link {
+  padding: 10px 20px;
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+.header__buttons-book {
+  color: #fff;
+  background-color: #2b2a29;
+}
+.header__buttons-activities {
+  color: #2b2a29;
+  border: 1px solid #2b2a29;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.3);
+}
