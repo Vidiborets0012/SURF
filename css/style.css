@@ -68,6 +68,18 @@ p {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.subtitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
 .container {
   max-width: 1740px;
   padding: 0 10px;
@@ -227,16 +239,8 @@ body {
   max-width: 560px;
 }
 
-.about__subtitle {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 20px;
-}
 .about__title {
   margin-bottom: 100px;
-  font-weight: 800;
-  font-size: 64px;
-  text-transform: uppercase;
 }
 .about__list {
   display: flex;
