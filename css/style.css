@@ -314,3 +314,8 @@ body {
   font-size: 26px;
   text-align: center;
 }
+
+.site-images {
+  width: 100%;
+  margin: 0 auto 150px;
+}
