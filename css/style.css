@@ -379,3 +379,66 @@ body {
 .blockquote__cite::before {
   content: '/';
 }
+
+.footer {
+  padding: 100px 0;
+  color: #fff;
+  background-color: #2b2a29;
+}
+
+.footer__inner {
+  max-width: 1160px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer__logo {
+  font-size: 0;
+}
+
+.footer__info {
+  margin-top: -12px;
+  margin-bottom: 60px;
+}
+
+.footer__info-list {
+  display: flex;
+  gap: 68px;
+  margin: 0;
+}
+
+.footer__info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 222px;
+}
+
+.footer__info-item span {
+  display: block;
+}
+
+.footer__info-item dt {
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer__info-item dd {
+  margin-left: 0;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 40px;
+}
