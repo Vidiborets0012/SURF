@@ -40,6 +40,7 @@ p {
 .button {
   padding: 10px 20px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .list-item__button {
@@ -473,6 +474,30 @@ body {
   background-color: #fff;
 }
 
+@media (max-width: 1500px) {
+  .about__img {
+    flex-basis: 50%;
+  }
+
+  .about__img-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about__content {
+    flex-basis: 50%;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+  }
+
+  .about__img {
+    align-self: flex-end;
+  }
+}
+
 @media (max-width: 992px) {
   .menu__btn {
     display: flex;
@@ -517,6 +542,23 @@ body {
     padding: 75px 0;
     font-size: 40px;
   }
+
+  .about__inner {
+    flex-wrap: wrap;
+  }
+
+  .about__content {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+
+  .about__img {
+    flex-basis: 100%;
+  }
+
+  .about {
+    margin-bottom: 75px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -524,8 +566,11 @@ body {
     flex-wrap: wrap;
   }
 
-  .buttons__link {
+  .header__buttons .buttons__link {
     width: 100%;
+  }
+
+  .buttons__link {
     font-size: 24px;
     text-align: center;
   }
@@ -540,5 +585,13 @@ body {
 
   .list-item__button {
     font-size: 14px;
+  }
+
+  .about__title {
+    font-size: 44px;
+  }
+
+  .subtitle {
+    margin-bottom: 10px;
   }
 }
